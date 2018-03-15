@@ -1,22 +1,25 @@
-#archive{
+#all{
+  font-weight: bold;
+}
+.archive{
   text-align: right;
   font-weight: bold;
   color: rgb(23,71,167)
 }
-#sidebar{
-  list-style-type: none
-}
-#navigation {
-  max-width: 180px;
-  margin-left: -15px;
-  }
-
-#all{
-  font-weight: bold;
-}
 #headertext{
   text-align: center;
 }
+#navigation {
+  max-width: 250px;
+  margin-right: -10px;
+  margin-left: -20px;
+  }
+#picture {
+  text-align: center;
+}
+#sidebar{
+    list-style-type: none
+  }
 .article-title{
   border: 1px solid rgb(168, 190, 178);
   background-color: rgb(213, 241, 225);
@@ -37,28 +40,34 @@
   font-size: 120%;
   font-weight: bold;
   padding-left: 10px;
+  text-align: left;
 }
 .bluebox{
   border: 1px solid rgb(209, 223, 240);
   background-color: rgb(246, 250, 254);
   padding: 10px;
 }
-.links{
-  color: rgb(23, 71, 167);
-}
 .container{
-  margin: 50px;
+  margin: 30px;
 }
 .greenbox{
   border: 1px solid rgb(213,241,225);
   background-color: rgb(247, 255, 250);
   padding: 10px;
+  margin-right: -25px;
+}
+.headspace{
+  padding-top: 25px;
+}
+.links{
+  color: rgb(23, 71, 167);
 }
 .purplebox{
   border: 1px solid rgb(219,207,239);
   background-color: rgb(249, 245, 254);
   padding: 10px;
   margin-top: 15px;
+  text-align: center;
 }
 .pic-right{
   float: right;
